@@ -43,14 +43,23 @@ function Header({ title }) {
   };
 
   const addTask = () => {
+    if (!taskTitle || taskTitle.trim() === "") {
+      setTaskTitle("");
+      return;
+    }
+
+    const title = taskTitle.trim();
+
     dispatch({
       type: "ADD_TASK",
       payload: {
         id: generate(),
-        title: taskTitle,
+        title: title,
       },
     });
+
     setIsModalOpen(false);
+    setTaskTitle("");
   };
 
   return (
@@ -92,6 +101,7 @@ function Header({ title }) {
           id="outlined-basic"
           variant="outlined"
           label="title task"
+          value={taskTitle}
           onChange={handleChangeTitle}
           fullWidth
         />
