@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# MostafaZr-Dev-20project_1_TaskManagment
-=======
-<<<<<<< HEAD
-# MostafaZr-Dev-20project_1_TaskManagment
-=======
 # 20 PROJECTS CHALLENG
 
 1 - Task Management
@@ -11,7 +5,7 @@
 
 # Live Demo
 
-[Demo](https://mostafazr-dev.github.io/20project_1_TaskManagment/)
+[Demo](https://mostafazr-dev.github.io/20projects_1_TaskManagment/)
 
 ## Technologies
 
@@ -28,5 +22,3 @@
 1.  **yarn install**
 2.  **yarn build**
 3.  open **dist/index.html** file in browser
->>>>>>> 2200e5a... init
->>>>>>> 95f49dc... init
