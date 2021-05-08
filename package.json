@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "http://mostafazr-dev.github.io/20project_1_TaskManagment",
+  "homepage": "https://mostafazr-dev.github.io/20projects_1_TaskManagment/",
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
